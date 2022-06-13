@@ -12,34 +12,44 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .w-80{
+            width: 80%;
+        }
+    </style>
   </head>
-  <body style="margin: 0; padding: 0; box-sizing: border-box">
-    <main class="w-75 m-auto mt-2">
-      <nav class="d-flex">
-        <div class="nav-logo ">
-          <img src="./image/nav-logo.png" alt="" />
-        </div>
-        <div class="ps-5 ms-5 nav-title">
-          <ul class="d-flex list-unstyled text-black">
-            <li class="m-2">
-              <a class="text-black text-decoration-none" href="#">Home</a>
-            </li>
-            <li class="m-2">
-              <a class="text-black text-decoration-none" href="#">About Us</a>
-            </li>
-            <li class="m-2">
-              <a class="text-black text-decoration-none" href="#"
-                >Our Serviers</a
-              >
-            </li>
-            <li class="m-2">
-              <a class="text-black text-decoration-none" href="#"
-                >Our Product</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <body>
+    <main class="w-80 m-auto">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="https://triplertechbd.com/wp-content/uploads/2022/01/Group-9.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0 fs-4 f-light">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contuct Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Product</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </main>
 
     <!--Bootstrap JavaScript Bundle with Popper -->
